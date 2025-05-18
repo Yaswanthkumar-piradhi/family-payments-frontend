@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/family-payments-frontend/static/css/main.a917dc26.css",
+    "main.js": "/family-payments-frontend/static/js/main.f19ba1a6.js",
+    "index.html": "/family-payments-frontend/index.html",
+    "main.a917dc26.css.map": "/family-payments-frontend/static/css/main.a917dc26.css.map",
+    "main.f19ba1a6.js.map": "/family-payments-frontend/static/js/main.f19ba1a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a917dc26.css",
+    "static/js/main.f19ba1a6.js"
+  ]
+}
