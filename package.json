@@ -2,7 +2,7 @@
   "name": "family-payments-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourgithubusername.github.io/family-payments-frontend",
+  "homepage": "https://yaswanthkumar-piradhi.github.io/family-payments-frontend",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
