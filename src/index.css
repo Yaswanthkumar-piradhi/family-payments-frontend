@@ -1,13 +1,84 @@
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #f9f9f9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background: #007bff;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-link, .btn-logout, .admin-link {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+}
+
+.auth-container, .dashboard-container, .admin-panel {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.auth-container form input,
+.upload-payment form input[type="text"],
+.upload-payment form input[type="file"],
+.auth-container form button,
+.upload-payment form button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.upload-payment {
+  margin-top: 2rem;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+.success {
+  color: green;
+  margin-top: 1rem;
+}
+
+.payments-list table,
+.admin-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.payments-list th, .payments-list td,
+.admin-panel th, .admin-panel td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.highlight-row {
+  background-color: #e0f7fa;
 }
